@@ -15,6 +15,7 @@ app.use(ejsLayouts);
 app.set("view engine", "ejs");
 
 // Routes start here
+// This is a comment
 
 app.get("/reminders", reminderController.list);
 
